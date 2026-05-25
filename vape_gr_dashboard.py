@@ -715,7 +715,7 @@ with tabs[7]:
              f"{fdf['品牌_标准化'].nunique()} 个品牌"),
             ("市场格局",
              f"希腊本土品牌占 **{local_r:.1%}**（{local_n} 条），进口品牌占 **{foreign_r:.1%}**（{foreign_n} 条）。"
-             f"本土品牌在榜单数量上具有明显优势，但进口品牌以 {foreign_brands_cnt} 个品牌贡献了 {foreign_r:.0%} 的记录，品牌多样性更高"),
+             f"本土品牌在榜单数量上具有明显优势，但进口品牌以 {foreign_brands_cnt} 个品牌贡献了 {foreign_r:.0%} 的记录，品牌多样性同样很高"),
             ("主导分类",
              f"**{top_cat}** 为最大品类，共 {top_cat_n} 条，占比 **{top_cat_r:.1%}**，"
              f"在所有网站中均有稳定表现"),
